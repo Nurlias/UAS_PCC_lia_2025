@@ -2,7 +2,7 @@ name: GitHub Actions Build UAS_PCC_lia_2025
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-    Build-Docker-Images:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
