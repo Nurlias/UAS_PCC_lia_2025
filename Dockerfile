@@ -16,9 +16,6 @@ COPY assets/ /usr/share/nginx/html/assets/
 COPY images/ /usr/share/nginx/html/images/
 
 
-RUN touch UAS-PCCM-NURLIAS-2025.txt && \
-    echo "UAS" > UAS-PCC-Lia-2025.txt
-
 EXPOSE 8080
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
