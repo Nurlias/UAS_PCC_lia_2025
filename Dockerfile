@@ -1,4 +1,4 @@
-FROM alpine
+FROM nginx:alpine
 
 LABEL maintainer="NURLIAS" \
       email="iiishjj72@gmail.com" \
