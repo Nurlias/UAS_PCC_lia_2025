@@ -14,5 +14,5 @@ jobs:
       - name: login and build
         run: |
          docker build -t liii1104/uas_pcc_lia_2025:latest -f Dockerfile .
-         echo ${{ secrets.DOCKERTOKKEN }} | docker login -u ${{ secrets.USERNAMEDOCKER }} --password-stdin
+         echo ${{ secrets.DOCKERTOKKEN }} | docker login -u ${{ secrets.USERNAMEDOCKER}} --password-stdin
          docker push liii1104/uas_pcc_lia_2025:latest
